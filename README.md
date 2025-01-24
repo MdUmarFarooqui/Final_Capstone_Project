@@ -4,9 +4,10 @@ The dataset consists of over 34,000 consumer reviews for Amazon brand products, 
 
 ## Project Workflow and Approach:
 ### 1. Initial Exploration and Problem Identification:
-Perform Exploratory Data Analysis (EDA) to understand the dataset structure and distribution.
-Analyze examples of positive, negative, and neutral reviews to gain qualitative insights into sentiment patterns.
-Examine the distribution of sentiment classes. Address the identified class imbalance problem for effective model training and evaluation.
+* Perform Exploratory Data Analysis (EDA) to understand the dataset structure and distribution.
+* Analyze examples of positive, negative, and neutral reviews to gain qualitative insights into sentiment patterns.
+Examine the distribution of sentiment classes. 
+Address the identified class imbalance problem for effective model training and evaluation.
 ### 2. Feature Engineering and Baseline Model:
 Convert textual reviews into numerical representations using TF-IDF scores.
 Train a Multinomial Naive Bayes classifier as a baseline model. Note: Due to class imbalance, the model is likely to overpredict the dominant class (positive sentiment).
